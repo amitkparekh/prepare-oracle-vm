@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Usage: curl https://github.com/amitkparekh/prepare-oracle-vm/run | bash
+#
+# For more info, visit: https://github.com/amitkparekh/prepare-oracle-vm
+#
+index_main() {
+	set -e
+	curl -s -S -L https://raw.githubusercontent.com/amitkparekh/prepare-oracle-vm/main/bin/oracle-a100.sh | bash
+}
+
+index_main
