@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-# -------------------------------- Update deps ------------------------------- #
-sudo apt update -y &&
-	sudo apt upgrade -y
-
 # ---------------------- Install pyenv for python sanity --------------------- #
 curl https://pyenv.run | bash
 
